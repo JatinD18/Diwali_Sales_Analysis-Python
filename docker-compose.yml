@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  diwalisalesanalysispython:
+    image: diwalisalesanalysispython
+    build:
+      context: .
+      dockerfile: ./Dockerfile
